@@ -2393,7 +2393,7 @@ class Main_:
 			os.sys.exit()
 	def __check_status_(self, mainx):
 		try:
-			mainz = requests.get("https://raw.githubusercontent.com/DavudChinedu23/DARK-FB/main/data/status.txt").text.strip()
+			mainz = requests.get("https://raw.githubusercontent.com/DavidChinedu23/DARK-FB/main/data/status.txt").text.strip()
 		except requests.exceptions.ConnectionError:
 			kotak("# UPS... SEPERTINYA JARINGAN ANDA TERPUTUS",M,C)
 			os.sys.exit()
